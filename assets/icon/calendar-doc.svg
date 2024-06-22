@@ -1,0 +1,10 @@
+<svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CalendarDoc">
+<path id="Vector" d="M8 18.3333C8.36722 18.3333 8.71941 18.1929 8.97907 17.9428C9.23874 17.6928 9.38462 17.3536 9.38462 17C9.38462 16.6464 9.23874 16.3072 8.97907 16.0572C8.71941 15.8071 8.36722 15.6667 8 15.6667V14.3333C8 14.2449 8.03647 14.1601 8.10139 14.0976C8.1663 14.0351 8.25435 14 8.34615 14H16.6538C16.7457 14 16.8337 14.0351 16.8986 14.0976C16.9635 14.1601 17 14.2449 17 14.3333V15.6667C16.6328 15.6667 16.2806 15.8071 16.0209 16.0572C15.7613 16.3072 15.6154 16.6464 15.6154 17C15.6154 17.3536 15.7613 17.6928 16.0209 17.9428C16.2806 18.1929 16.6328 18.3333 17 18.3333V19.6667C17 19.7551 16.9635 19.8399 16.8986 19.9024C16.8337 19.9649 16.7457 20 16.6538 20H8.34615C8.25435 20 8.1663 19.9649 8.10139 19.9024C8.03647 19.8399 8 19.7551 8 19.6667V18.3333Z" fill="#FB5567"/>
+<path id="Vector_2" d="M11 14L11 20" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M22 3H2C1.44772 3 1 3.44772 1 4V24C1 24.5523 1.44772 25 2 25H22C22.5523 25 23 24.5523 23 24V4C23 3.44772 22.5523 3 22 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M18 1V5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M6 1V5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M1 9H23" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

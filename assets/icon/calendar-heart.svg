@@ -1,0 +1,13 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CalendarHeart" clip-path="url(#clip0_186_746)">
+<path id="Vector" d="M30.875 5.9375H7.125C6.46916 5.9375 5.9375 6.46916 5.9375 7.125V30.875C5.9375 31.5308 6.46916 32.0625 7.125 32.0625H30.875C31.5308 32.0625 32.0625 31.5308 32.0625 30.875V7.125C32.0625 6.46916 31.5308 5.9375 30.875 5.9375Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M26.125 3.5625V8.3125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.875 3.5625V8.3125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M19 17.8125C19 16.8677 19.3753 15.9615 20.0434 15.2934C20.7115 14.6253 21.6177 14.25 22.5625 14.25C23.5073 14.25 24.4135 14.6253 25.0816 15.2934C25.7497 15.9615 26.125 16.8677 26.125 17.8125C26.125 22.5625 19 26.125 19 26.125C19 26.125 11.875 22.5625 11.875 17.8125C11.875 16.8677 12.2503 15.9615 12.9184 15.2934C13.5865 14.6253 14.4927 14.25 15.4375 14.25C16.3823 14.25 17.2885 14.6253 17.9566 15.2934C18.6247 15.9615 19 16.8677 19 17.8125Z" stroke="#FB5567" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_186_746">
+<rect width="38" height="38" fill="white"/>
+</clipPath>
+</defs>
+</svg>
