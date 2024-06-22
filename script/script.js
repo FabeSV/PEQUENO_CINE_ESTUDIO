@@ -1,19 +1,21 @@
 
-document.addEventListener('DOMContentLoaded', () => {
-   const menuIcon = document.getElementById('menu-icon');
-   const menuLinks = document.getElementById('menu-links');
 
-  menuIcon.addEventListener('click', () =>  {
-      menuLinks.classList.toggle('active');
-  });
-});
+// menú de navegación
+const open = document.querySelector(".nav__open");
+const close = document.querySelector(".nav__close");
+
+const nav = document.querySelector("nav");
 
 
-//const menuIcon = document.querySelector(".menu-icon");
-//onst menuLinks = document.querySelector(".menuLinks");
+open.addEventListener("click", () => {
 
-//menuIcon.addEventListener("click", () => {
+    nav.classList.add("nav__position--right");
 
-    //menuLinks.classList.toggle('active');
+ });
 
-//});
+
+ close.addEventListener("click", () => {
+
+   nav.classList.remove("nav__position--right");
+
+ });

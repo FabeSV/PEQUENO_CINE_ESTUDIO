@@ -12,9 +12,7 @@ body{
     justify-content: center;
     align-items: center;
 
-
-    height: 100%;
-    background-color: black;
+    background-color:aqua;
 }
 
 a{
@@ -63,7 +61,7 @@ li a{
     cursor: pointer;
 }
 
-.circle{
+.nav__circle{
     display: block;
     width: 5px;
     height: 5px;
@@ -72,7 +70,7 @@ li a{
     margin-right: 8px;
 }
 
-.icon{
+.nav__icon{
     display: flex;
     justify-content: space-around;
 
@@ -80,7 +78,7 @@ li a{
     border-left: 1px solid white;
 }
 
-.icon a{
+.nav__icon a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,66 +87,64 @@ li a{
     border-radius: 50%;
 }
 
-.menu-icon{
-  display: none;
-}
-
-.icon a:hover{
+.nav__icon a:hover{
     background-color:#FB5567;
     transition: 0.5s;
 }
 
-@media (max-width: 768px) {
-
-  header{
-    justify-content: space-around;
-    align-items: center;
-    }
-
-    .menu-icon{
-        display: block;
-      }
-
-    .menu-icon:hover{
-        background-color:#FB5567;
-    }
-
-    .menu-links{
+.nav__close,
+.nav__open{
     display: none;
-    }
 
-    .menu-links.active {
-        display: flex;
-        padding-top: 30px;
-        transition: O.5s;
-    }
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+@media screen and (max-width:800px){
 
     nav{
-        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-        width: 100%;
+        position:fixed;
+        top: 0;
+       
+        right: -850px;
+        width: calc(100% - 1%);
+        height: calc(100vh - 1%);
+        transition: right 0.8s;
+        background-color:crimson;
+     }
+
+     ul {
+        flex-direction: column;
+     }
+
+     li{
+        justify-content: normal;
+    }
+
+    li a {
+        font-size: 1em;
+     }
+
+    .nav__icon {
+        border-left: none;
+    }
+
+     .nav__position--right{
+        right: 0;
+       }
+
+    .nav__close{
         position: absolute;
-        top: 60px;
-        left: 0;
-        text-align: center;
+        top: 34px;
+        left: 40px;
     }
 
-    ul{
-        flex-direction: column;
-    }
-
-    li {
-        justify-content: center;
-
-        padding: 10px 0;
-    }
-
-    .icon{
-        justify-content: center;
-
-        width: 100%;
-        border-left:none,
-    }
-   
+     .nav__open,
+     .nav__close{
+        display: block;
+     }
 }
