@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color:black;
 
 }
@@ -720,6 +721,10 @@ justify-content: space-between;
 padding: 20px 0;
 }
 
+.nav__footer-info p{
+    font-weight: 200;
+}
+
 .nav__footer-info img{
     width: 99px;
 }
@@ -728,17 +733,23 @@ padding: 20px 0;
     width: 20px;
 }
 
-.nav__footer,
-.nav__footer-info{
+.nav__footer{
 display: flex;
-height: 140px;
 flex-direction: column;
 justify-content: space-between;
+
+height: 117px;
 }
 
 
 .nav__footer li{
     justify-content: flex-start;
+}
+
+.info__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__txt{
@@ -752,15 +763,14 @@ cursor: pointer;
 }
 
 .content__footer{
-    height: 344px;
+    padding: 44px 0;
 }
 
 .direction{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
 
-        height: 40px;
+        margin: 15px 0;
 }
 
 .nav__public{
@@ -818,7 +828,7 @@ a.button__ver img:hover{
 
 .rrss{
 display: flex;
-justify-content: space-between;
+justify-content:space-evenly;
 align-items: center;
 width: 70%;
 height: 50%;
@@ -826,8 +836,7 @@ height: 50%;
 }
 
 .rs{
-    width: 30px;
-    height: 30px;
+    padding: 4px 5px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -975,12 +984,12 @@ height: 50%;
     }
 
     .content__footer {
-        height: 148px;
+       
     }
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:367px){
 
   /*store*/
 .ranking__movie{
