@@ -16,17 +16,18 @@
     <script defer src="script/script.js"></script>
 </head>
 <body>
+       <!--NAV-->
        <header>
             <h1><a href="#"><img src="./assets/images/logo.png" alt="Pequeño Cine Estudio"></a></h1>
             <a href="#" class="nav__open"><img src="./assets/icon/List.svg" alt="Menu hamburguesa" class="svg-icon positionRight"></a>
             <nav class="nav__menu--links">
                 <a href="#" class="nav__close"><img src="./assets/icon/close.svg" alt="Menu hamburguesa" class="svg-icon positionRight"></a>
-                <ul>
-                    <li><span class="nav__circle"></span><a class="nav__txt" href="#">CARTELERA</a></li>
-                    <li><span class="nav__circle"></span><a href="#">TIENDA</a></li>
-                    <li><span class="nav__circle"></span><a href="#">ALQUILER DE SALA</a></li>
-                    <li><span class="nav__circle"></span><a href="#">CONTACTO</a></li>
-                    <li><span class="nav__circle"></span><a href="#">EQUEÑO CINE ESTUDIO</a></li>
+                <ul class="nav_header">
+                    <li class="nav_header-li"><span class="nav__circle"></span><a class="nav__txt" href="#">CARTELERA</a></li>
+                    <li class="nav_header-li"><span class="nav__circle"></span><a href="#">TIENDA</a></li>
+                    <li class="nav_header-li"><span class="nav__circle"></span><a href="#">ALQUILER DE SALA</a></li>
+                    <li class="nav_header-li"><span class="nav__circle"></span><a href="#">CONTACTO</a></li>
+                    <li class="nav_header-li"><span class="nav__circle"></span><a href="#">EQUEÑO CINE ESTUDIO</a></li>
                 </ul>
                 <div class="nav__icon">
                     <a href="#"><img src="./assets/icon/lupa.svg" alt="lupa" class="nav__icon-svg"></a>
@@ -34,6 +35,529 @@
                 </div>
             </nav>
         </header>
+        <main>
+
+                    <!--SLIDER HEADER-->   
+                    <section class="container">
+                                <div class="slider__header-imgDgr">
+                                    <div class="slider__items">
+                                            <img class="slider__items-svg" src="./assets/icon/calendar-heart.svg" alt="calendario con corazón">
+                                                <h1 class="slider__items-h1">Desde 1977</h1>
+                                                <p class="slider__items-p">cine en versión original<span class="slider__items-colorRose">.</span></p>
+                                </div>
+                                <img class="slider__items-img" src="./assets/images_slider/chicos.jpg" alt="chiques en blanco y negro"/>
+                                </div> 
+                    </section>
+
+                    <!--TITLE SECTION-->
+                    <section class="container__section-title">
+                        <div class="container__text">
+                                <h2 class="container__text-h2">
+                                    <a class="text__h2-a" href="#">
+                                        <img class="text__h2-svg" src="./assets/icon/calendar-star.svg" alt="calendario con estrella">
+                                        CARTELERA
+                                    </a> 
+                                </h2>
+                                <p class="container__text-p">Selección de películas para la semana del 24 - 30  mayo.</p>
+                                <p class="container__text-p">¡No te las puedes perder!</p>
+                          </div>          
+                    </section>
+
+                    <!--CATEGORY-->
+                    <section class="container__category">
+                        <div class="button__position">
+                            <a class="button__ver">ver más<img src="./assets/icon/arrow.svg"/></a>
+                        </div>    
+                        <div class="slider__category">
+                            <button id="btn__prev" class="btn__category btn__prev"><img src="./assets/icon/left.svg" alt="tirador izquierda"/></button>
+                            <div class="category__card-list">
+                                        
+                                    <div class="category__card">                                     
+                                            <div class="card__info">
+                                                   <div class="info__img">
+                                                       <img src="./assets/icon/vo.svg" alt="">
+                                                    </div>
+                                                    <div class="info__txt">
+                                                        <p class="info__txt-title">PÁJAROS</p>
+                                                        <p class="">Pau Durá</p>
+                                                        <a class="info__txt-snp"> Sinopsis</a>
+                                                    </div>
+                                            </div>
+                                            <div class="card__wiver">
+                                                <img class="card__item-img" src="./assets/images_slider/pajaros.jpg" alt="Cartel Pájaros">
+                                                <div  class="card__item">
+                                                    <h3>PÁJAROS</h3>
+                                                    <div class="card__item-txt">
+                                                        <p>100 mnin.</p>
+                                                        <div class="stick"></div>
+                                                        <a href="#" class="button">COMPRAR</a>
+                                                    </div>
+                                            </div>
+                                            </div>
+                                     </div>
+
+                                     <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="cartel El último bailes">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">EL ÚLTIMO BAILE</p>
+                                                    <p class="">Delphine Lehericey</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/baile.jpg" alt="Cartel Pájaros">
+                                            <div  class="card__item">
+                                                <h3>EL ÚLTIMO BAILE</h3>
+                                                <div class="card__item-txt">
+                                                    <p>65 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">EL MAESTRO QUE PROMETIÓ EL MAR.</p>
+                                                    <p class="">Patrica Font</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/maestro.jpg" alt="Cartel El maestro">
+                                            <div  class="card__item">
+                                                <h3>EL MAESTRO QUE PROMETIÓ EL MAR</h3>
+                                                <div class="card__item-txt">
+                                                    <p>105 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">SLOW.</p>
+                                                    <p class="">Marija Cartaradze</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/slow.jpg" alt="Cartel Slow">
+                                            <div  class="card__item">
+                                                <h3>SLOW</h3>
+                                                <div class="card__item-txt">
+                                                    <p>104 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">LAS COSAS SENCILLAS.</p>
+                                                    <p class="">Eric Bernard</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/cosas.jpg" alt="Cartel Las cosas sencillas">
+                                            <div  class="card__item">
+                                                <h3>LAS COSAS SENCILLAS</h3>
+                                                <div class="card__item-txt">
+                                                    <p>95 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">ENFARIUS.</p>
+                                                    <p class="">Chuck Konzelman</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/nefarius.jpg" alt="Cartel Nefarius">
+                                            <div  class="card__item">
+                                                <h3>NEFARIUS</h3>
+                                                <div class="card__item-txt">
+                                                    <p>98 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">SAMSARA.</p>
+                                                    <p class="">Lois Patiño</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/samsara.jpg" alt="Cartel Samsara">
+                                            <div  class="card__item">
+                                                <h3>SAMSARA</h3>
+                                                <div class="card__item-txt">
+                                                    <p>113 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="category__card">                                     
+                                        <div class="card__info">
+                                               <div class="info__img">
+                                                   <img src="./assets/icon/vo.svg" alt="">
+                                                </div>
+                                                <div class="info__txt">
+                                                    <p class="info__txt-title">TRATAMOS DEMASIADO BIEN A LAS MUJERES.</p>
+                                                    <p class="">Clara Bilbao</p>
+                                                    <a class="info__txt-snp"> Sinopsis</a>
+                                                </div>
+                                        </div>
+                                        <div class="card__wiver">
+                                            <img class="card__item-img" src="./assets/images_slider/mujeres.jpg" alt="Cartel Mujeres">
+                                            <div  class="card__item">
+                                                <h3>TRATAMOS DEMASIADO BIEN...</h3>
+                                                <div class="card__item-txt">
+                                                    <p>92 min.</p>
+                                                    <div class="stick"></div>
+                                                    <a href="#" class="button">COMPRAR</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn__next" class="btn__category btn__next"><img src="./assets/icon/right.svg" alt="tirador derecha"/></button>
+                        </div>
+                    </section>
+
+                    <!--RANKING-->
+                    <section>
+                        <div class="container__h3">
+                            <h3 class="text__h3">RANKING SEMANAL</h3>
+                        </div>
+                        <div class="container__ranking">
+                            <div class="content__ranking">
+                                    <div class="image"><img class="ranking__img" src="./assets/images_slider/pajaros.jpg"></div>
+                                    <div class="content__ranking-movie">
+                                            <div class="ranking__movie active">
+                                                            <div class="content__info">  
+                                                            <p class="title">#1 PÁJAROS</p> 
+                                                                <div class="info">
+                                                                        <p>2024</p>
+                                                                        <p>100 min.</p>
+                                                                        <p>España</p>
+                                                                    </div>                   
+                                                            </div>
+                                                            <div class="content__info">
+                                                                <p class="title">50 visitas</p>  
+                                                                <div class="info info__star">                  
+                                                                        <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                        <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                        <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                        <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                        <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                </div>
+                                                            </div>
+                                                            <div class="info__core">
+                                                                <img src="./assets/icon/core.svg" alt="corazon">
+                                                                
+                                                            </div>
+
+                                            </div>
+
+                                                <div class="ranking__movie">
+                                                    <div class="content__info">  
+                                                    <p class="title">#2 LAS COSAS SENCILLA</p> 
+                                                        <div class="info">
+                                                                <p>2024</p>
+                                                                <p>100 min.</p>
+                                                                <p>España</p>
+                                                            </div>                   
+                                                    </div>
+                                                    <div class="content__info">
+                                                        <p class="title">20 visitas</p>  
+                                                        <div class="info info__star">                  
+                                                                <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                <img src="./assets/icon/stars.svg" alt="estrella">
+                                                                <img src="./assets/icon/stars.svg" alt="estrella">
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__core">
+                                                        <img src="./assets/icon/core.svg" alt="corazon">
+                                                        
+                                                    </div>
+
+                                            </div>
+
+                                            <div class="ranking__movie">
+                                                <div class="content__info">  
+                                                <p class="title">#3 SAMSARA</p> 
+                                                    <div class="info">
+                                                            <p>2024</p>
+                                                            <p>100 min.</p>
+                                                            <p>España</p>
+                                                        </div>                   
+                                                </div>
+                                                <div class="content__info">
+                                                    <p class="title">10 visitas</p>  
+                                                    <div class="info info__star">                  
+                                                            <img src="./assets/icon/stars.svg" alt="estrella">
+                                                            <img src="./assets/icon/stars.svg" alt="estrella">
+                                                    </div>
+                                                </div>
+                                                <div class="info__core">
+                                                    <img src="./assets/icon/core.svg" alt="corazon">
+                                                    
+                                                </div>
+
+                                            </div>
+                                    </div> 
+                                    
+                            </div>
+                       </div>
+                    </section>
+
+
+                    <!--NEW MOVIE-->
+                    <section class="background__color">
+                        <div class="container__h3">
+                        <h3 class="text__h3">PRÓXIMAMENTE EN CARTELERA</h3>
+                        </div>
+                        <div class="slider__movie">
+                                    <button id="btn__nprev" class="btn__nm btn__nprev"><img src="./assets/icon/left.svg" alt="tirador izquierda"/></button>
+                                    <div class="nm__card-list">
+                                        <div class="movie__card">
+                                                <img class="movie__item-img" src="./assets/images/calladita.png" alt="Cartel calladita">
+                                                <div class="movie__card-info">
+                                                    <div class="movie__item-txt">
+                                                                <h3>CALLADITA</h3>
+                                                                <div class="movie__item-p">
+                                                                    <p>Miguel Faus Jubert </p>
+                                                                    <p> VO</p>
+                                                                    <p> 93 min.</p>
+                                                                    <p> Drama</p>
+                                                                </div>
+                                                                <div class="movie__item-trailer"> 
+                                                                    <a class="button__ver">ver trailer<img src="./assets/icon/arrow.svg"/></a>
+                                                                </div>
+                                                            
+                                                    </div>
+                                        </div>
+                                     </div>
+
+                                     <div class="movie__card">
+                                        <img class="movie__item-img" src="./assets/images/el-ultimo-verano.png" alt="Cartel el último verano">
+                                        <div class="movie__card-info">
+                                            <div class="movie__item-txt">
+                                                        <h3>CALLADITA</h3>
+                                                        <div class="movie__item-p">
+                                                            <p>Catherine Breillat </p>
+                                                            <p> VO / ES</p>
+                                                            <p> 104 min.</p>
+                                                            <p> Drama</p>
+                                                        </div>
+                                                        <div class="movie__item-trailer"> 
+                                                            <a class="button__ver">ver trailer<img src="./assets/icon/arrow.svg"/></a>
+                                                        </div>
+                                                    
+                                            </div>
+                                </div>
+                             </div>
+        
+
+                            <div class="movie__card">
+                                        <img class="movie__item-img" src="./assets/images/nina.png" alt="Cartel Nina">
+                                        <div class="movie__card-info">
+                                            <div class="movie__item-txt">
+                                                        <h3>CALLADITA</h3>
+                                                        <div class="movie__item-p">
+                                                            <p>Andrea Jaurreta</p>
+                                                            <p> VO</p>
+                                                            <p> 95 min.</p>
+                                                            <p> Drama</p>
+                                                        </div>
+                                                        <div class="movie__item-trailer"> 
+                                                            <a class="button__ver">ver trailer<img src="./assets/icon/arrow.svg"/></a>
+                                                        </div>
+                                                    
+                                            </div>
+                                </div>
+                             </div>      
+                            </div>
+                            <button id="btn__nnext" class="btn__nm btn__nnext"><img src="./assets/icon/right.svg" alt="tirador derecha"/></button>
+                        </div>            
+                    </section>
+
+
+                    <!--TITLE SECTION-->
+                    <section class="container__section-title">
+                                <div class="container__text">
+                                        <h2 class="container__text-h2">
+                                            <a class="text__h2-a" href="#">
+                                                <img class="text__h2-svg" src="./assets/icon/calendar-doc.svg" alt="calendario tiket">
+                                                TIENDA
+                                            </a> 
+                                        </h2>
+                                        <p class="container__text-p">Entradas y abonos.</p>
+                            </div>          
+                    </section>
+
+                    <!--STORE-->
+                    <section class="container__store">
+                        <div class="button__position">
+                            <a class="button__ver">ver más<img src="./assets/icon/arrow.svg"/></a>
+                        </div>   
+                        <div class="content__store">
+                            <h4>ENTRADAS</h4>
+                            <div class="card__ticket">
+                                    <div class="content__title">
+                                        <img class="card__ticket-icon" src="./assets/icon/info.svg" alt="información"/>
+                                        <p class="card__ticket-day">Lunes, Martes y Jueves</p>
+                                    </div>
+                                    <div class="content__price">
+                                            <p class="price">9,00€</p>
+                                            <a href="#" class="button">COMPRAR</a>
+                                    </div>
+                            </div>
+
+                            <div class="card__ticket">
+                                <div class="content__title">
+                                    <img class="card__ticket-icon" src="./assets/icon/info.svg" alt="información"/>
+                                    <p class="card__ticket-day">Miércoles, día del espectador</p>
+                                </div>
+                                <div class="content__price">
+                                        <p class="price">7,00€</p>
+                                        <a href="#" class="button">COMPRAR</a>
+                                </div>
+                        </div>
+
+                        <div class="card__ticket">
+                            <div class="content__title">
+                                <img class="card__ticket-icon" src="./assets/icon/info.svg" alt="información"/>
+                                <p class="card__ticket-day">Viernes Sábados y Domingos</p>
+                            </div>
+                            <div class="content__price">
+                                    <p class="price">10,00€</p>
+                                    <a href="#" class="button">COMPRAR</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="content__store">
+                            <h4>ABONOS</h4>
+                            <div class="card__ticket pass">
+                                    <div class="content__title">
+                                        <img class="card__ticket-icon" src="./assets/icon/info.svg" alt="información"/>
+                                        <p class="card__ticket-day">Epecial 3 películas Pequeño cine estudio</p>
+                                    </div>
+                                    <div class="content__price">
+                                            <p class="price">15,00€</p>
+                                            <a href="#" class="button">COMPRAR</a>
+                                    </div>
+                            </div>
+
+                            <div class="card__ticket pass">
+                                <div class="content__title">
+                                    <img class="card__ticket-icon" src="./assets/icon/info.svg" alt="información"/>
+                                    <p class="card__ticket-day">Epecial 6 películas Pequeño cine estudio</p>
+                                </div>
+                                <div class="content__price">
+                                        <p class="price">25,00€</p>
+                                        <a href="#" class="button">COMPRAR</a>
+                                </div>
+                        </div>
+
+                    </div>
+
+                    </section>
+                    
+                    <!--SUBCRITION-->
+                    <section class="container__subcrition">
+                    <div class="content__subcrition">
+                            <p>Suscríbete y no te pierdas nuestros  ¡Próximos Esternos!</p>
+                                <form>
+                                    <div class="form__group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required placeholder="Tú Email">
+                                    </div>
+                                    <button class="button padding" type="submit">ACEPTO</button>
+                                </form>
+                        </div>
+                    </section>
+
+                     <!--FOOTER-->
+                     <footer class="footer">
+                        <div class="content__footer">
+                                <div class="nav__footer-info">
+                                    <img src="./assets/images/logo.png" alt="Pequeño Cine Estudio">
+                                    <div class="direction">
+                                        <p>calle de Magallanes 1</p>
+                                        <p> 28015 Madrid</p>
+                                    </div>
+                                    <div class="rrss">
+                                       <a class="rs" href="#"><img src="./assets/icon/f.png" alt="facebook"></a> 
+                                       <a class="rs" href="#"><img src="./assets/icon/i.png" alt="instagram"></a> 
+                                       <a class="rs" href="#"><img src="./assets/icon/y.png" alt="youtube"></a> 
+                                    </div>
+                                </div>
+                                <ul class="nav__footer">
+                                    <li><a class="footer__txt" href="#"></a>CARTELERA</li>
+                                    <li><a class="footer__txt" href="#"></a>TIENDA</li>
+                                    <li><a class="footer__txt" href="#"></a>ALQUILER DE SALA</li>
+                                    <li><a class="footer__txt" href="#"></a>CONTACTO</li>
+                                </ul>
+                                <ul class="nav__footer">
+                                    <li><a class="footer__txt" href="#"></a>PEQUEÑO CINE ESTUDIO</li>
+                                    <li><a class="footer__txt" href="#"></a>Política de privacidad</li>
+                                    <li><a class="footer__txt" href="#"></a>política de Cooquies</li>
+                                </ul>
+                                <div class="nav__public">
+                                    <img src="./assets/icon/calendar.svg" alt="calendario">
+                                    <p>Consulta disponibilidad para alquilar la sala</p>
+                                    <a class="button__ver">ver más<img src="./assets/icon/arrow.svg"/></a>
+                                </div>
+                            </div>
+                     </footer>
+
+    </main>
  
 </body>
-</html>
+</html> 
