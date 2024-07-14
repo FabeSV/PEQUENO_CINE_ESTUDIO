@@ -1,21 +1,11 @@
 // mostrar el icono de los textos del menú
-const icon = document.querySelector(".nav__circle");
 const txt = document.querySelector(".nav__txt");
+const icon = document.querySelector(".nav__circle");
 
 txt.addEventListener("click",() =>{
 
     icon.classList.add("active");
 });
-
-const ico = document.querySelectorAll(".nav__circle");
-const txto = document.querySelectorAll(".nav__txt");
-
-
-for( let i = 0; i < button.length; i++){
-    button[i].addEventListener("click", () => {
-circulo[i].classList.toggle("active");
-});
-}
 
 
 
@@ -90,7 +80,7 @@ const initSliderMovie = () => {
   const sliderButtonsn = document.querySelectorAll(".btn__nm");
  
 
-  sliderButtonsn.forEach(buttons => {
+ sliderButtonsn.forEach(buttons => {
     buttons.addEventListener("click", () => {
       const direct = buttons.id === "btn__nprev" ? -1 : 1;
       const scrollAmountn = imageListn.clientWidth * direct;
