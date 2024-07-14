@@ -7,6 +7,17 @@ txt.addEventListener("click",() =>{
     icon.classList.add("active");
 });
 
+const ico = document.querySelectorAll(".nav__circle");
+const txto = document.querySelectorAll(".nav__txt");
+
+
+for( let i = 0; i < button.length; i++){
+    button[i].addEventListener("click", () => {
+circulo[i].classList.toggle("active");
+});
+}
+
+
 
 // menu de navegacion
 const open = document.querySelector(".nav__open");
